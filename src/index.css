@@ -1,0 +1,91 @@
+.head{
+    height: 70px;
+    width:100%;
+    background:blue;
+	display:flex;
+	top:0px;
+	position:sticky;
+	align-items:center;
+	z-index:999;
+}
+.topLeft{
+	flex:3;
+}
+.logo{
+	font-size:25px;
+	margin-left:20px;
+	font-weight:bold;
+	color:white;
+	cursor:pointer;
+}
+.searchbar{
+	width:100%;
+	height:30px;
+	background:white;
+	border-radius:30px;
+	display:flex;
+	align-items:center;
+}
+.searchIcons{
+	font-size:20px;
+	margin-left:10px;
+	
+}
+.searchInput{
+	border:none;
+	width:70%;
+	outline:none;
+}
+.searchInput:focus{
+	outline:none;
+}
+.topCenter{
+	flex:5;
+	
+}
+.topRight{
+	flex:4;
+	display:flex;
+	align-items:center;
+    justify-content:space-around;
+    color:white;
+}
+.topbarLink{
+	margin-right:10px;
+	font-size:18px;
+	cursor:pointer;
+}
+.topbarIcons{
+	display:flex;
+}
+.topbarIconsItem{
+	margin-right:15px;
+	cursor:pointer;
+	position:relative;
+}
+.topbarIconsBadge{
+	width:15px;
+	height:15px;
+	background:red;
+	border-radius:50%;
+	color:white;
+	position:absolute;
+	top:-5px;
+	right:-5px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-size:12px;
+}
+.topbarImg{
+    width:35px;
+    height:35px;
+border-radius:50%;
+cursor:pointer;
+object-fit:cover;
+}
+.homeContainer{
+	display:flex;
+	width:100%;
+	
+}
